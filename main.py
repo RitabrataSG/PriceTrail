@@ -1,10 +1,5 @@
-"""Simple price tracker (tracks up to 1000 books automatically).
-
-Usage:
-    python main.py collect    # scrape current prices and store them in prices.db
-    python main.py analyze    # report price drops and weekday patterns
-
-Running with no command (e.g. the VS Code Run button) does "collect".
+"""
+Simple price tracker (tracks up to 1000 books automatically).
 """
 import os
 import re
